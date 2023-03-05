@@ -234,13 +234,13 @@ fun NumberGuessingGame(amountInput: Int, num: Int, count: Int): Pair<String, Int
     var text = ""
 
     if (input == random) {
-        text = "Congrats you did it!, Count before you win $countNum"
+        text = "Congrats you did it!, The count before you win is $countNum."
 
     }else if(input != 0) {
         if (input > random) {
-            text = "Wrong, your number is too high!"
+            text = "Wrong, It's too high!"
         }else if (input < random) {
-            text = "Wrong, your number is too low!"
+            text = "Wrong, It's too low!"
         }
     }
     return Pair(text, countNum)
