@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Number Guessing Game</string>
+    <string name="title">Try to guess the number I\'m thinking of \n from 1-1000!</string>
+    <string name="your_guess">Your Guess</string>
+    <string name="hint">Hint: %s</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="random">Random Number</string>
+    <string name="submit">Submit</string>
+    <string name="click_here">Click here before you guess the number</string>
+</resources>
